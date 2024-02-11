@@ -1,4 +1,4 @@
-OpenCV INSTALLATION INSTRUCTIONS -
+#OpenCV INSTALLATION INSTRUCTIONS -
 (can refer to this if any issues occur: https://youtu.be/v_76zetw950?si=pEwlF1DYhzr7Cjff)
 
 Download OpenCV 4.9.0 from the official website
@@ -18,7 +18,7 @@ After opening the project, select the Cmake_Targets folder, right-click ALL_BUIL
 
 Repeat the previous step for INSTALL as well.
 
-BUILDING THE PROJECT -
+#BUILDING THE PROJECT -
 Go to Properties -> Additional Include Directories. Add the path to your OpenCV's include folder.
 (Example: E:\opencv\build\install\include)
 
@@ -37,7 +37,7 @@ opencv_calib3d490d.lib
 
 Change the address of the 4 images in the code to it appropriate location as the absolute path has been given.
 
-Design and Algorithms -
+#Design and Algorithms -
 There are 3 main steps after creating an empty panorama canvas to load the images.
 
 1) Feature detection using SIFT (Scale-Invariant Feature Transform). This seems to be the most robust algorithm and hence has been chosen.
